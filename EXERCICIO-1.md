@@ -8,8 +8,8 @@
 
 - Crie um novo diretório e inicialize o projeto:
   ```bash
-  mkdir my-typescript-project
-  cd my-typescript-project
+  mkdir exercicio-1
+  cd exercicio-1
   npm init -y
 
 - Instale o typescript no projeto:
@@ -19,7 +19,8 @@
 - Configure o typescript:
   ```bash
   npx tsc --init
-  
+
+- Faça as modificações que achar necessário no arquivo tsconfig.json.  
 - No diretório src, crie um arquivo chamado index.ts.
 - Crie uma função com parâmetros tipados (number, string, boolean, etc.).
 - Defina variáveis com os tipos string, number e boolean.
