@@ -1,4 +1,4 @@
-# Exercício 4: Criando um Projeto TypeScript com Vite e React
+# Exercício 3: Criando um Projeto TypeScript com Vite e React
 
 ## Objetivo
 Aprender a criar um projeto React com TypeScript utilizando o **Vite**, uma ferramenta de build rápida para projetos modernos. Este exercício ajuda a configurar um ambiente React com TypeScript desde o início e a publicar a aplicação.
