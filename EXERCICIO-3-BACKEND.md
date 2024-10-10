@@ -14,7 +14,7 @@ npm init -y
 
 ### 2. Instale as ferramentas necessárias no projeto
 ```bash
-npm install typescript ts-node @types/node --save-dev
+npm install typescript ts-node express @types/express --save-dev
 ```
 
 ### 3. Configure o Typescript no projeto
@@ -22,7 +22,7 @@ npm install typescript ts-node @types/node --save-dev
 npx tsc --init
 ```
 
-Arquivo tsconfig.json:
+Ajuste o arquivo tsconfig.json:
 
 ```json
 {
@@ -39,27 +39,23 @@ Arquivo tsconfig.json:
 
 No diretório src, crie um arquivo server.ts
 
-```bash
-mkdir src
-touch src/server.ts
-```
-
 No arquivo server.ts, escreva o código da API:
 
 ```typescript
-import { createServer, IncomingMessage, ServerResponse } from 'http';
+import * as express from 'express';
 
-// Função para lidar com as requisições HTTP
-const route = (req: IncomingMessage, res: ServerResponse) => {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Olá, mundo! Esta é uma API Node.js com TypeScript puro.');
-};
+const app = express();
 
-// Criar o servidor HTTP
-const server = createServer(route);
+app.get('/', (request, response) => {
+  response.json({
+    nome: "Jefferson",
+    idade: 29
+  });
+})
 
-// Iniciar o servidor na porta 3000
-server.listen(3000);
+app.listen(3000, () => {
+  console.log("API Rodando na port 3000");
+});
 ```
 
 ### 4. Crie os comandos necessários para rodar o servidor
