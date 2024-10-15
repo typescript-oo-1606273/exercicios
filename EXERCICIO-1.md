@@ -23,7 +23,17 @@
 - Faça as modificações que achar necessário no arquivo tsconfig.json.  
 - No diretório src, crie um arquivo chamado index.ts.
 - Crie uma função com parâmetros tipados (number, string, boolean, etc.).
-- Defina variáveis com os tipos string, number e boolean.
+- Defina variáveis com os tipos string, number e boolean e um objeto qualquer.
 - Exiba o valor dessas variáveis no console.
 - Chame a função criada e mostre o resultado no console.
+
+- Compile o código criado
+  ```bash
+  tsc
+  ```
+- Execute o código Javascript gerado
+  ```bash
+  node index.js
+  ```
+
 
