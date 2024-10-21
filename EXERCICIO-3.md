@@ -1,4 +1,4 @@
-# Exercício 4: Usando Classes e Interfaces
+# Exercício 3: Usando Classes e Interfaces
 
 ## Objetivo
 Demonstrar o uso de `classes` para criar objetos com comportamentos e `interfaces` para definir a estrutura de um objeto em TypeScript, além de implementar diferentes comportamentos para métodos comuns.
