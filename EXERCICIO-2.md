@@ -18,7 +18,13 @@ Demonstrar o uso de `enums` para categorizar valores, `functions` para manipula�
    - `concluida: boolean`
    - `prioridade: Prioridade`
 
-4. Crie uma função chamada `criarTarefa` que aceita um título, uma descrição e uma prioridade como parâmetros e retorna um objeto do tipo `Tarefa` com o campo `concluida` inicializado como `false`.
+4. Crie uma função chamada `criarTarefa` que aceita um título, uma descrição e uma prioridade como parâmetros e retorna um objeto do tipo `Tarefa` com o campo `concluida` inicializado como `false`. Ex:
+
+  ```typescript
+  function criarTarefa(titulo: string, descricao: string, prioridade: Prioridade): Tarefa {
+     //retorna objeto com os dados da tarefa
+  }
+  ``` 
 
 5. Crie uma função chamada `exibirTarefa` que aceita um objeto do tipo `Tarefa` e imprime uma string formatada com o título, a prioridade e o status (`concluida` ou não).
 
