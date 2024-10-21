@@ -22,10 +22,18 @@
 
 - Faça as modificações que achar necessário no arquivo tsconfig.json.  
 - No diretório src, crie um arquivo chamado index.ts.
-- Crie uma função com parâmetros tipados (number, string, boolean, etc.).
+- Crie uma função com parâmetros tipados (number, string, boolean, etc.). Ex:
+  ```typescript
+  function apresentar(nome: string): string {
+    return `Prazer, sou ${nome}!`;
+  }
+  ```
 - Defina variáveis com os tipos string, number e boolean e um objeto qualquer.
 - Exiba o valor dessas variáveis no console.
-- Chame a função criada e mostre o resultado no console.
+- Chame a função criada e mostre o resultado no console. Ex:
+  ```typescript
+  console.log(apresentar("Jeff");
+  ```
 
 - Compile o código criado
   ```bash
