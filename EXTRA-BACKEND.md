@@ -1,4 +1,4 @@
-# Exercício 3: Criando uma API com Node.js e TypeScript sem Frameworks
+# EXTRA: Criando uma API com Node.js e TypeScript sem Frameworks
 
 ## Objetivo
 Criar uma API básica utilizando **Node.js** e **TypeScript**. A API irá responder com um texto em uma requisição HTTP.
