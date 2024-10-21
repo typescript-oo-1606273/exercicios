@@ -41,7 +41,7 @@
   ```
 - Execute o código Javascript gerado
   ```bash
-  node index.js
+  node src/index.js
   ```
 
 
