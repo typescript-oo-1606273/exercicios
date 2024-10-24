@@ -14,7 +14,9 @@ Você precisa montar um sistema para organizar os pedidos de uma loja. Cada pedi
    - Esses status devem ser valores fixos que o sistema vai usar.
 
 2. **Defina o que um pedido contém**:
-   - Cada pedido precisa de um **ID** único, o **nome do cliente**, os **itens comprados**, o **valor total** e o **status**.
+   - Cada pedido precisa de um **ID** único, o **nome do cliente**, os **itens comprados** e o **status**.
+   - Cada item do pedido é composto por um **nome** e um **valor**.
+   - O valor total do pedido é igual a soma do valor de cada item do pedido.
    - Lembre-se de começar o pedido sempre com o status "Pendente".
 
 3. **Atualize o status do pedido**:
