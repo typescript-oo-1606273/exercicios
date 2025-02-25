@@ -1,29 +1,28 @@
-# Exercício: Sistema de Conta Bancária
+# Exercício: Classificação de Idades
 
-**Objetivo**: Criar um sistema simples que gerencie diferentes tipos de contas bancárias: Conta Corrente e Conta Poupança.
+## Objetivo
 
----
+Criar um programa simples que classifique uma pessoa de acordo com sua idade, utilizando conceitos básicos de TypeScript, como tipos primitivos, type aliases, enums e funções.
 
-## Cenário:
-Você vai criar um sistema para gerenciar contas bancárias. Existem dois tipos de conta: **Conta Corrente** e **Conta Poupança**. Elas compartilham algumas funcionalidades, mas têm diferenças importantes.
+## Instruções
 
-## Instruções:
+1. **Criar um Enum para as Faixas Etárias**
 
-1. **Estrutura Básica da Conta**:
-   - Toda conta tem um **número**, o **nome do titular**, e um **saldo**.
-   - A conta deve permitir **depositar**, **sacar** e **ver o saldo**.
+   - Defina um `enum` chamado `CategoriaIdade` com os seguintes valores:
+     - `CRIANCA` (0 a 12 anos)
+     - `ADOLESCENTE` (13 a 17 anos)
+     - `ADULTO` (18 a 64 anos)
+     - `IDOSO` (65 anos ou mais)
 
-2. **Conta Corrente**:
-   - A **Conta Corrente** tem um **limite de cheque especial**, permitindo sacar além do saldo, até um valor limite.
+2. **Criar um Tipo para Representar uma Pessoa**
 
-3. **Conta Poupança**:
-   - A **Conta Poupança** tem um **rendimento mensal**, que aumenta o saldo de acordo com uma taxa de juros.
+   - Defina um `type` chamado `Pessoa`, contendo:
+     - `nome`: string
+     - `idade`: number
 
-4. **Operações**:
-   - Para a Conta Corrente, o saque pode usar o limite do cheque especial.
-   - Para a Conta Poupança, aplique o rendimento mensal ao saldo.
+3. **Criar uma Função para Classificar a Idade**
 
-5. **Teste no Sistema**:
-   - Crie uma Conta Corrente e uma Conta Poupança.
-   - Faça operações de **depósito**, **saque** e aplique o **rendimento** na poupança.
-   - Mostre o saldo final de cada conta.
+   - Crie uma função que receba um objeto do tipo `Pessoa` e retorne a categoria correspondente da idade.
+
+4. **Testar o Programa**
+   - Crie algumas pessoas de diferentes idades e exiba a classificação no console.
