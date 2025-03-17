@@ -31,3 +31,15 @@
    console.log(calculadora.dividir(12, 2)); //6
    console.log(calculadora.dividir(3, 0)); //Deve mostrar mensagem de erro
    ```
+
+5. **Indo além**:
+
+Separe cada uma das operações em classes isoladas, implementando a seguinte interface:
+
+```typescript
+interface OperacaoMatematica {
+   calcular(num1: number, num2: number): number
+}
+```
+
+Instancie as classes das operações ao chamar a classe Calculadora
