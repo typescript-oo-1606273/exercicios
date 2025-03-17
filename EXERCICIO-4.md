@@ -4,7 +4,7 @@
 
 ## Instruções:
 
-- Crie um novo projeto Typescript ou utilize o modelo que criamos nas aulas [exemplo-typescript-config](https://github.com/typescript-oo-1606189/exemplo-typescript-config) 
+- Crie um novo projeto Typescript ou utilize o modelo que criamos nas aulas [exemplo-typescript-config](https://github.com/typescript-oo-1606273/projeto-typescript) 
 
 1. **Criar a Classe**:
    - Crie uma classe chamada `Calculadora`.
